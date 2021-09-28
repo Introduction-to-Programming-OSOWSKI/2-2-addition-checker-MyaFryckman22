@@ -2,10 +2,10 @@
 #define function 
 def addCheck(x,y,z):
     if x + y == z:
-        return "true"
+        return True
 
     else:
-        return "false"
+        return False
 
 print(addCheck(2,2,4)) 
 
